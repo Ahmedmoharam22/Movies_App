@@ -323,7 +323,7 @@ header .btn {
   .home-text {
     padding: 0 4%;
   }
-  .home-text h1 {
+  .home-text h2 {
     font-size: 3rem;
   }
 }
@@ -365,7 +365,7 @@ header .btn {
   .navbar.active {
     top: 100%;
   }
-  .home-text h1 {
+  .home-text h2 {
     font-size: 2.4rem;
   }
   .btn {
@@ -390,7 +390,7 @@ header .btn {
   header {
     padding: 6px 4%;
   }
-  .home-text h1 {
+  .home-text h2 {
     font-size: 1.7rem;
   }
   .movies-container,
@@ -399,6 +399,11 @@ header .btn {
   }
   .box .box-img img {
     height: 240px;
+  }
+}
+@media (max-width: 300px) {
+  .home-text h2 {
+    font-size: 1.2rem;
   }
 }
 
